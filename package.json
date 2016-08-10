@@ -9,6 +9,24 @@
     "yeoman-generator"
   ],
   "dependencies": {
-    "yeoman-generator": "0.24.1"
+    "case": "^1.4.1",
+    "colors": "^1.1.2",
+    "if-empty": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "ramda": "^0.21.0",
+    "split-keywords": "^2.0.1",
+    "yeoman-generator": "^0.24.1",
+    "yosay": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "chai": "^3.5.0",
+    "eslint": "^2.11.1",
+    "eslint-config-as": "^0.1.6",
+    "eslint-plugin-import": "^1.8.1",
+    "mocha": "^2.5.3",
+    "mocha-clean": "^1.0.0",
+    "yeoman-assert": "^2.2.1",
+    "yeoman-test": "^1.4.0"
   }
 }
