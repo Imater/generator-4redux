@@ -1,0 +1,14 @@
+{
+  "name": "generator-4redux",
+  "version": "0.1.0",
+  "description": "generate react, redux components",
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "0.24.1"
+  }
+}
