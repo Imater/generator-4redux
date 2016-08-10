@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "generate react, redux components",
   "files": [
-    "src"
+    "app",
+    "components"
   ],
   "keywords": [
     "yeoman-generator"
