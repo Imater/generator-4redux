@@ -7,7 +7,7 @@ describe('@component <%= Case.pascal(componentName) %>', () => {
     expect(shallow(<<%= Case.pascal(componentName) %> />)).to.have.length(1);
   });
   it('should render normal with children content', () => {
-    expect(shallow(<<%= Case.pascal(componentName) %>><%= Case.pascal(componentName) %><<%= Case.pascal(componentName) %> />)).to.have.length(1);
+    expect(shallow(<<%= Case.pascal(componentName) %>><%= Case.pascal(componentName) %></<%= Case.pascal(componentName) %>>)).to.have.length(1);
   });
 });
 
